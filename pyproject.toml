@@ -1,0 +1,64 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "comfyui-gemini-prompt-studio"
+version = "1.0.0"
+description = "Enhance your ComfyUI prompts with Google Gemini's dynamic artist persona system"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "DaLongZhuaZi", email = ""}
+]
+maintainers = [
+    {name = "DaLongZhuaZi", email = ""}
+]
+keywords = [
+    "comfyui",
+    "gemini",
+    "prompt",
+    "ai",
+    "text-to-image",
+    "image-to-video",
+    "stable-diffusion"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Multimedia :: Graphics",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+requires-python = ">=3.8"
+dependencies = [
+    "google-generativeai>=0.8.0",
+    "torch>=2.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio"
+Repository = "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio"
+Issues = "https://github.com/DaLongZhuaZi/ComfyUI-Gemini-Prompt-Studio/issues"
+
+[tool.ruff]
+line-length = 120
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "T20"]
+ignore = ["E501"]  # Line too long (handled by formatter)
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

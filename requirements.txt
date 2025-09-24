@@ -1,0 +1,9 @@
+# ComfyUI-Gemini-Prompt-Studio Dependencies
+# Google Gemini API client
+google-generativeai>=0.8.0
+
+# PyTorch (ComfyUI dependency, usually already installed)
+torch>=2.0.0
+
+# Additional development dependencies (optional)
+ruff>=0.1.0  # Code linting and formatting
