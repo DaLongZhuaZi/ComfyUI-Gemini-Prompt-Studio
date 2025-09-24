@@ -186,7 +186,7 @@ Download [`examples/T2I+I2V.json`](examples/T2I%2BI2V.json) and [`examples/Textt
 | Node not visible | Make sure `__init__.py` is in the repo root |
 | `ModuleNotFoundError: google.generativeai` | Re-run `pip install -r requirements.txt` |
 | API returns empty | Check key quota & safety filters; lower temperature or tweak prompt |
-| Other API issues | Visit https://ai.google.dev/gemini-api/docs/troubleshooting |
+| Other API issues | [Visit](https://ai.google.dev/gemini-api/docs/troubleshooting) |
 
 ---
 
@@ -197,7 +197,7 @@ Download [`examples/T2I+I2V.json`](examples/T2I%2BI2V.json) and [`examples/Textt
 | 节点未显示 | 确认 `__init__.py` 位于仓库根目录 |
 | 提示缺少 `google.generativeai` | 重新执行 `pip install -r requirements.txt` |
 | API 返回为空 | 检查密钥额度及安全过滤，可调低 temperature 或修改提示词 |
-| 其他 API 相关问题 | 访问 Google AI Studio 文档排查 https://ai.google.dev/gemini-api/docs/troubleshooting?hl=zh-cn |
+| 其他 API 相关问题 | [访问](https://ai.google.dev/gemini-api/docs/troubleshooting?hl=zh-cn) Google AI Studio 文档排查 |
 
 ---
 
